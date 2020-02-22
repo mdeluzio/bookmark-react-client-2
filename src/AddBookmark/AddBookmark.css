@@ -1,0 +1,22 @@
+div.AddBookmark{
+    width: 50%;
+}
+
+form.addbookmark__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form.addbookmark__form > input, textarea {
+    margin-bottom: 2em;
+    width: 50%;
+}
+
+form.addbookmark__form > label {
+    margin-bottom: .4em;
+}
+
+div.addbookmark__buttons > button {
+    margin: .5em;
+}
